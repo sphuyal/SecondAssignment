@@ -13,6 +13,7 @@ import fragments.Armstrong;
 import fragments.Automorphic;
 import fragments.Palindrome;
 import fragments.SimpleInterest;
+import fragments.Swapping;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -21,6 +22,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private Button btnSI;
     private Button btnArmstrong;
     private Button btnAutomorphic;
+    private Button btnSwapping;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,6 +34,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btnSI = findViewById(R.id.btnSI);
         btnArmstrong = findViewById(R.id.btnarmstrong);
         btnAutomorphic = findViewById(R.id.btnautomorphic);
+        btnSwapping = findViewById(R.id.btnswapping);
 
 
         btnArea.setOnClickListener(this);
@@ -39,6 +42,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btnSI.setOnClickListener(this);
         btnArmstrong.setOnClickListener(this);
         btnAutomorphic.setOnClickListener(this);
+        btnSwapping.setOnClickListener(this);
 
     }
 
@@ -80,6 +84,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 fragmentTransaction.commit();
                 break;
 
+
+            case R.id.btnswapping:
+                Swapping swapping = new Swapping();
+                fragmentTransaction.replace(R.id.fragmentContainer,swapping);
+                fragmentTransaction.commit();
+                break;
         }
     }
 }
