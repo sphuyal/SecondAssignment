@@ -11,13 +11,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="20sp"
-        android:hint="Enter Principale"
+        android:inputType="number"
+        android:hint="Enter Principal"
         />
     <EditText
         android:id="@+id/ettime"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="20sp"
+        android:inputType="number"
         android:hint="Enter Time"
         />
 
@@ -26,6 +28,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="20sp"
+        android:inputType="number"
         android:hint="Enter Rate"
         />
 
@@ -33,13 +36,14 @@
         android:id="@+id/btnSI"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Calculte SI"
+        android:text="Calculte SI"
         android:textSize="20sp"/>
 
     <TextView
         android:id="@+id/tvSI"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:gravity="center"
         android:textSize="20sp"/>
 
 </LinearLayout>

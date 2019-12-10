@@ -11,6 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="20sp"
+        android:inputType="number"
         android:hint="Enter Number"
         />
 
@@ -18,12 +19,14 @@
         android:id="@+id/btnpalindrome"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Check Palindrome"
+        android:text="Check Palindrome"
         android:textSize="20dp"
         />
 
     <TextView
         android:id="@+id/tvpalindrome"
+        android:gravity="center"
+        android:textSize="20sp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         />

@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:hint="Enter Radius"
         android:inputType="number"
-        android:textSize="30sp"
+        android:textSize="20sp"
         />
 
     <Button
@@ -26,6 +26,7 @@
     <TextView
         android:id="@+id/tvarea"
         android:textSize="20sp"
+        android:gravity="center"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
