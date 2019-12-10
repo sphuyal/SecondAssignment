@@ -50,6 +50,6 @@ public class SimpleInterest extends Fragment implements View.OnClickListener {
 
         si=(p*t*r)/100;
 
-        tvSI.setText("The Simple Interest is "+si);
+        tvSI.setText("The Simple Interest is " + si);
     }
 }
