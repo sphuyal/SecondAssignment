@@ -1,0 +1,34 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="fragments.Armstrong">
+
+
+    <EditText
+        android:id="@+id/etarmstrong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Any Number"
+        android:inputType="number"
+        android:textSize="20sp"
+        />
+
+    <Button
+        android:id="@+id/btnarmstrong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Check Armstrong"/>
+
+    <TextView
+        android:id="@+id/tvarmstrong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="20sp"/>
+
+
+
+</LinearLayout>

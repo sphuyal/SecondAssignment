@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal"
+    tools:context=".MainActivity">
+
+   <GridLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:columnCount="3"
+       android:rowCount="2">
+
+       <Button
+           style="@style/button"
+           android:id="@+id/btnarea"
+           android:text="Area of Circle"/>
+
+
+       <Button
+           style="@style/button"
+       android:id="@+id/btnpalindrome"
+       android:text="Palindrome"
+       />
+
+       <Button
+           style="@style/button"
+           android:id="@+id/btnSI"
+           android:text="Simple interest "
+           />
+
+       <Button
+           style="@style/button"
+           android:id="@+id/btnarmstrong"
+           android:text="Armstrong"
+           />
+       <Button
+           style="@style/button"
+           android:id="@+id/btnautomorphic"
+           android:text="Automorphic"
+           />
+       <Button
+           style="@style/button"
+           android:id="@+id/btnswapping"
+           android:text="Swapping"
+           />
+
+
+
+   </GridLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/fragmentContainer">
+
+    </LinearLayout>
+
+</LinearLayout>
