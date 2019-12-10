@@ -3,6 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@color/colorPurple"
     tools:context="fragments.Armstrong">
 
 
@@ -10,6 +11,8 @@
         android:id="@+id/etarmstrong"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textColor="@color/colorWhite"
+        android:textColorHint="@color/colorWhite"
         android:hint="Enter Any Number"
         android:inputType="number"
         android:textSize="20sp"
@@ -27,6 +30,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
+        android:textColorHint="@color/colorWhite"
         android:textSize="20sp"/>
 
 

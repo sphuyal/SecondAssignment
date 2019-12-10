@@ -3,6 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@color/colorOrange"
     tools:context="fragments.SimpleInterest">
 
 
@@ -11,6 +12,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="20sp"
+        android:textColorHint="@color/colorWhite"
+        android:textColor="@color/colorWhite"
         android:inputType="number"
         android:hint="Enter Principal"
         />
@@ -18,6 +21,8 @@
         android:id="@+id/ettime"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textColorHint="@color/colorWhite"
+        android:textColor="@color/colorWhite"
         android:textSize="20sp"
         android:inputType="number"
         android:hint="Enter Time"
@@ -28,6 +33,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="20sp"
+        android:textColorHint="@color/colorWhite"
+        android:textColor="@color/colorWhite"
         android:inputType="number"
         android:hint="Enter Rate"
         />
@@ -44,6 +51,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
+        android:textColor="@color/colorWhite"
         android:textSize="20sp"/>
 
 </LinearLayout>

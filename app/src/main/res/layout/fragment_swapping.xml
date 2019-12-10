@@ -3,13 +3,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@color/ColorYellow"
     tools:context="fragments.Swapping">
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/etFirst"
-        android:hint="Enter first number"
+        android:hint="Enter First number"
+        android:textColorHint="@color/colorWhite"
+        android:textColor="@color/colorWhite"
         android:textSize="20sp"
         android:inputType="number"
         />
@@ -18,8 +21,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/etSecond"
+        android:textColorHint="@color/colorWhite"
+        android:textColor="@color/colorWhite"
         android:textSize="20sp"
-        android:hint="Enter second Number"
+        android:hint="Enter Second Number"
         android:inputType="number"
         />
 
@@ -34,5 +39,8 @@
     <TextView
         android:id="@+id/tvswapping"
         android:layout_width="match_parent"
+        android:textColor="@color/colorWhite"
+        android:textSize="20sp"
+        android:gravity="center"
         android:layout_height="wrap_content"/>
 </LinearLayout>
